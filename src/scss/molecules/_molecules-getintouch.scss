@@ -1,0 +1,36 @@
+
+/********************************
+* About Contact - Get in Touch
+*********************************/
+
+@mixin getInTouch() {
+  @include tileBackground();
+      .Index-page-content {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+     .Index-page-content .sqs-row .sqs-col-6 .sqs-block-html{
+      background-color: $siteBackground;
+      padding-top: 40px;
+      padding-left: 60px;  
+      padding-right: 60px;
+      margin-right: -60px;
+      margin-left: -60px;
+    }
+
+   .Index-page-content .sqs-row .sqs-col-6 .sqs-block-button{
+      background-color: $siteBackground;
+      padding-bottom: 40px;
+      padding-left: 60px;  
+      padding-right: 60px;
+      margin-right: -60px;
+      margin-left: -60px;
+    }
+
+    /* Style Get in Touch Button to match pattern */
+    a.sqs-block-button-element--medium.sqs-block-button-element {
+      @include button($popColor, $popColor, $siteBackground, $popColor);
+        margin-top: 0px;
+    }
+}

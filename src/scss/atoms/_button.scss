@@ -1,0 +1,15 @@
+@mixin button ($border: #dadada, $color: #8A8B8C, $hov-border: $siteBackground, $hov-color: white, $hov-background : #353535) {
+  border: 2px solid $border;
+  padding: 10px 40px;
+  min-width: 100px;
+  transition: all .25s ease;
+  font-family: ProximaNova-Semibold;
+  font-size: 12px;
+  color: $color;
+  letter-spacing: 2.4px; 
+    &:hover {
+      background: $hov-background;
+      border: 2px solid $hov-border;
+      color: $hov-color; 
+  }
+}

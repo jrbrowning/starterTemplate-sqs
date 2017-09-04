@@ -1,0 +1,153 @@
+/*****************************************************************************************************************/
+
+/*********************************
+* MODULE footer
+* 
+* Footer Formatting
+*********************************/
+
+/*****************************************************************************************************************/
+/* SVG arrow absolute positioning in footer top. */  
+.svg-arrow-display {
+background:url(https://static1.squarespace.com/static/59722ec9f14aa1bf36985c94/t/5976d0203a041174f5dea656/1500958752168/arrow.svg);
+  position: absolute;
+  display: block;
+  left: 50%;
+  width: 82px;
+  height: 10px;
+  background-size: 82px 10px;
+  margin-left: -41px;
+}
+
+/* absolutely position logo into center of middle footer */
+.Footer-middle { 
+ position: absolute;
+ background-position: center center;
+ background-image: url(https://static1.squarespace.com/static/59722ec9f14aa1bf36985c94/t/597799569f7456c8f3634ccd/1501010262756/scout-logo_white.png);
+  display: block;
+  left: 50%;
+  width: 80px;
+  margin-top: 34px;
+  margin-left: -40px;  
+  height: 78.8px;
+  background-size: 80px 78.8px;
+}
+
+/* change color of footer top to match sheet background  */
+.Footer-blocks--top {
+  background-color: $siteBackground;
+}
+
+/* remove padding to make upper footer extend full width.   NOTE:  this pushes the tear-drop component in sqs to add blocks off the screen */
+
+footer.Footer .Footer-inner {
+ max-width: none;
+  padding: 0px 0px;
+  
+  div.row.sqs-row {
+  margin-left: 0px;
+    margin-right:0px;
+      
+  }
+}
+
+footer.Footer .Footer-inner div.Footer-blocks--top div.sqs-block {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+footer .Footer-blocks--bottom > div.row.sqs-row:first-child {
+    padding-top:20px;
+    display: flex;
+}
+
+footer .Footer-blocks--bottom > div.row.sqs-row > div.col.sqs-col-12.span-12 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer .Footer-blocks--top {
+     padding-top: 34px;
+     max-width: none;
+     width: inherit;
+  a {
+    color: $footerLink !important;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom-width: 0px !important;
+  }
+  p {
+    line-height: 1em;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .15em;
+    text-transform: uppercase;   
+    text-align: center;
+  }
+}
+
+
+
+footer .Footer-blocks--bottom {
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 20px;
+
+    a {
+    color: $footerGrey !important;
+    text-decoration: none;
+    border-bottom-width: 0px !important;
+  }
+  
+  div.sqs-col-12 > div.sqs-block div.sqs-block-content p {
+  font-family: ProximaNova-Regular;
+  font-size: 9px;
+  color: #DADBDC;
+  letter-spacing: 1px;
+   line-height: 14px
+  }
+}
+
+/* move logo up to give space for bottom footer content */
+@media all and (max-width: 640px) {  .Footer-blocks--bottom { 
+  margin-top: 90px;
+  }
+}
+
+/* center text content when on mobile (sqs configured left/right aligned for desktop) */
+@media all and (max-width: 640px) {  .Footer-blocks--bottom .sqs-col-3 p { 
+  text-align: center;
+  }
+}
+
+/*center align social media icons. */
+@media all and (max-width: 640px) {  .Footer-blocks--bottom .sqs-svg-icon--list { 
+  text-align: center;
+  }
+}
+
+/*adjust title color of social labels (sqs footer has only one color) */
+.Footer-blocks--bottom .sqs-col-3 .sqs-block-content p:first-child {
+  color: $footerWhite;
+}
+
+/*reduce spacing between email and phone number */
+.Footer-blocks--bottom .sqs-col-3 .sqs-block-content p:nth-child(3) {
+  margin-top: -12px;
+}
+/*nudge social media icons up to align with content on left side */
+.Footer-blocks--bottom .sqs-svg-icon--list  {
+  margin-top: -15px;
+ }
+
+.social-icons-color-white.social-icons-style-regular .sqs-use--icon
+{
+  fill: $footerGrey;
+}
+
+// .social-icons-size-medium.social-icons-style-regular.social-icon-alignment-right .sqs-svg-icon--wrapper {
+//   margin: 0px;
+// }
+

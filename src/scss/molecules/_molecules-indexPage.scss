@@ -1,0 +1,23 @@
+/* Pagination Link on Blog listing */
+.BlogList-pagination-link-label {
+    @include button(#dadada,#8A8B8C,#353535,#FFF);
+    padding: 10px;
+    margin-top: 50px;
+}
+
+// style line (red) underline below H2 title
+section > .Intro-content .bannerContent {
+  margin-top: 10px;
+  //  padding: 35px;
+  position: relative;
+  z-index:1;
+}
+
+section > .Intro-content .bannerContent h2:before {
+  content: "";
+  position: absolute;
+  left: 17px;
+  bottom: 0px;
+  width: 12%;
+  border-bottom: 2px solid $popColor;
+}

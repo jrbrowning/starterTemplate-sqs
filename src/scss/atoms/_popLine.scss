@@ -1,0 +1,19 @@
+
+
+@mixin popLine() {
+  .sqs-block-content h2 {
+     /* style line (red) underline below H2 title */
+      padding-bottom: 25px;
+      position: relative;
+      z-index:1;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      height: 2px;
+      width: 10%;
+      border-bottom: 2px solid $popColor;
+    }
+  }
+}

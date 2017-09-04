@@ -1,0 +1,44 @@
+/*****************************************************************************************************************/
+
+/************************************************
+* MODULE stackedImages
+* 
+* Testimonials Stacked Image and Formating 
+************************************************/
+
+/*****************************************************************************************************************/
+/* main quote font formatting  */
+.sqs-block-image .design-layout-stack .image-title p {
+font-family: Georgia-Italic;
+font-size: 14px;
+color: #8A8B8C;
+letter-spacing: 0;
+line-height: 24px;
+}
+
+/* adding line seperation between quote sections */
+.sqs-block-image .design-layout-stack .image-subtitle p {
+  font-family: ProximaNova-Semibold;
+  font-size: 13px;
+  color: rgba(74,75,76,1);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+/* style line (red) underline below H2 title */
+.sqs-block-image .design-layout-stack .image-title p {
+  padding-bottom: 25px;
+  position: relative;
+  z-index:1
+}
+
+.sqs-block-image .design-layout-stack .image-title p:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 2px;
+  width: 20%;
+  border-bottom: 2px solid $popColor;
+}

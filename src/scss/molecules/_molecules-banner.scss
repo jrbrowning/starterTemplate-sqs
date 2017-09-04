@@ -1,0 +1,18 @@
+@mixin banner() {
+	@include tileBackground();
+
+  .Index-page-content {
+/* add padding to match sketch */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  @include popLine();
+
+  .sqs-block-html {
+    background-color: $siteBackground;
+    margin: 10px -30px;
+    padding: 50px 50px;
+  }
+}
+
+

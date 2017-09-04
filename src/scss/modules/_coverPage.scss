@@ -1,0 +1,20 @@
+/********************************
+* Home page - getInTouch
+*********************************/
+
+#maincontact {
+  @include getInTouch();
+/* Alternate block quote format */
+}
+
+#mainimage	{
+	background-color: hsla(49, 100%, 8%, 0.35);
+	  h3 {
+		font-family: Georgia-Italic;
+	    font-size: 20px;
+	  	letter-spacing: 0.02em;
+	  	line-height: 1em;
+	  	text-transform: none;
+	  }
+}
+

@@ -1,0 +1,135 @@
+/*****************************************************************************************************************/
+
+/*********************************
+* OLD content in TOP
+*********************************/
+
+/*****************************************************************************************************************/
+
+/*-----------------------------//
+//----- Listing formating -----//
+//-----------------------------*/
+
+#listingsbanner div.Index-page-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* style line (red) underline below H2 title */
+#listingsbanner .sqs-block-content h2 {
+  padding-bottom: 25px;
+  position: relative;
+  z-index:1
+}
+
+#listingsbanner .sqs-block-content h2:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 2px;
+  width: 12%;
+  border-bottom: 2px solid #FF4239;
+}
+
+#listingsbanner .sqs-block-html {
+  background-color: white;
+  margin: 10px -40px;
+  padding: 50px 60px;
+}
+
+#listingsbanner {
+  background:url(https://static1.squarespace.com/static/59862da6414fb5ac544b0d24/t/59911825ff7c500cdee02aad/1502681125532/whirlpool.png);
+}
+
+
+/*****************************************************************************************************************/
+
+/*-----------------------------//
+//----- Cover Page formating -----//
+//-----------------------------*/
+
+/*****************************************************************************************************************/
+
+#homeabout {
+  @include tileBackground(); 
+}
+
+/* button styling */
+#homeabout {
+  @include button($popColor,white);
+}
+  
+/* H3 styling */
+#homeabout h1 {
+  color: rgba(0,0,0,1);
+  margin-bottom: -8px;
+  margin-top: 15px;
+}
+
+#homeabout .Index-page-content .sqs-row .sqs-col-8 {
+  background-color: white;
+  padding: 5px 60px;
+  margin: auto -60px;
+}
+
+
+/* Media qwery styling (note, some strangeness) */
+
+@media all and (max-width: 640px) {
+  #homeabout {
+    div.Index-page-content {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }  
+    
+    div.col.sqs-col-12.span-12 > div.sqs-block:first-child {
+      padding-top: 2%;
+      padding-bottom: 0px;
+      line-height: 0px;
+      height: 0px;
+    }     
+    
+    div.col.sqs-col-12.span-12 > div.sqs-block:last-child {
+      height: 0px;
+      padding-bottom: 2%;
+      padding-top: 0px;
+    }  
+    
+    div.col.sqs-col-8.span-8 > div.sqs-block {
+      padding-top: 0px;
+   }    
+  }
+}
+
+/*****************************************************************************************************************/
+
+
+// Styling for the banner on the listing pages
+// 
+
+/* style line (red) underline below H2 title */
+
+section > .Intro-content .bannerContent {
+  margin-top: 10px;
+  position: relative;
+  z-index:1;
+}
+
+section > .Intro-content .bannerContent h2:before {
+  content: "";
+  position: absolute;
+  left: 17px;
+  bottom: 0px;
+  width: 12%;
+  border-bottom: 2px solid $popColor;
+}
+
+section > .Intro-content .bannerContent {
+ background:url(https://static1.squarespace.com/static/59862da6414fb5ac544b0d24/t/599218df893fc001361f53ac/1502746847494/river.png); 
+}
+
+section > .Intro-content .bannerContent div.col.sqs-col-6.span-6 {
+  background-color: $siteBackground;
+}
+

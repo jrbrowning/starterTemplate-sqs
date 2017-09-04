@@ -1,0 +1,62 @@
+/*****************************************************************************************************************/
+
+/*********************************
+* MODULE contactPage
+* 
+* contact Page Formatting
+*********************************/
+
+/*****************************************************************************************************************/
+
+/********************************
+* contact banner 
+*********************************/
+
+#contactbanner {
+  @include banner();
+}
+
+/*********************************
+* contact form styling
+*********************************/
+
+/* Remove box lables */
+#contactform .form-wrapper .field-list {
+  .title {
+    font-family: ProximaNova;
+      font-size: 13px;
+      color: #8A8B8C;
+      letter-spacing: 0;
+  }
+  .field  {
+/* Compress input boxes height spacing */
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    .caption {
+/* Remove labels above name fields.   Will replace with placeholder text */
+      font-size: 0px;
+    }
+  }
+ .field-element {
+/* Round corners of input fields */
+    border-radius: 5px;
+  }
+}
+
+/* contact form button styling */
+#contactform input.button {
+  border:2px solid #dadada;
+  padding: 10px;
+  min-width: 100px;
+  transition: all .25s ease;
+  font-family: ProximaNova-Semibold;
+  font-size: 12px;
+  color: #8A8B8C;
+  letter-spacing: 2.4px;
+    &:hover{
+      background: #353535;
+      border:2px solid #353535;
+      color: white;
+    }
+}

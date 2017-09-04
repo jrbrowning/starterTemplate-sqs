@@ -1,0 +1,22 @@
+/********************************
+* About Quote
+*********************************/
+
+@mixin blockQuote() {
+	color: $siteColor;
+	@include tileBackground();
+
+	/* figure caption color adjustment */
+	figure {
+		background-color: $siteBackground;
+		color: $siteColor;
+	  	padding: 50px 70px;
+	  	margin: 10px;  
+		/* figure caption color adjustment */
+		
+		figcaption {
+			margin-top: 10px;
+	 	 	color: $popColor;
+		}
+	}
+}
