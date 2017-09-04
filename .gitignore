@@ -1,3 +1,10 @@
+# Script generated files
+dist/
+public/
+
+## This is a copy from the file at https://github.com/github/gitignore/blob/master/Node.gitignore.   
+*~
+
 # Logs
 logs
 *.log
@@ -56,4 +63,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+
 

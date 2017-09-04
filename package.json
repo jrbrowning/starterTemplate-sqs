@@ -1,0 +1,38 @@
+{
+  "name": "supply-template",
+  "version": "1.0.0",
+  "description": "A helper NPM package for generating custom CSS/JS files based on input SCSS variables.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloWorldDevs/supply-template.git"
+  },
+  "keywords": [
+    "squarespace",
+    "css",
+    "js"
+  ],
+ "scripts": {
+    "watch": "./node_modules/.bin/webpack -d --progress --watch --colors",
+    "start": "npm run watch"
+  },
+  "author": "jeff browning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HelloWorldDevs/supply-template/issues"
+  },
+  "homepage": "https://github.com/HelloWorldDevs/supply-template#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "css-loader": "^0.28.4",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.2.0-rc.4"
+  }
+}
