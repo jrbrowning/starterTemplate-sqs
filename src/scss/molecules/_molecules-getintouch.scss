@@ -30,7 +30,7 @@
 
     /* Style Get in Touch Button to match pattern */
     a.sqs-block-button-element--medium.sqs-block-button-element {
-      @include button($popColor, $popColor, $siteBackground, $popColor);
+      @include button($popColor, $popColor, $popColor, $siteBackground, $popColor);
         margin-top: 0px;
     }
 }
