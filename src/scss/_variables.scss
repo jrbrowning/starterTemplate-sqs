@@ -1,24 +1,24 @@
 /* Template variable definition */ 
 
 /////////////////////
-// Light Template 
-/////////////////////
+// // Light Template 
+// /////////////////////
 
-$popColor : #FF4239;
+// $popColor : #FF4239;
 
-// Sitewide background tile //
-@mixin tileBackground() {
-  background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587e38dd041cc6f773951/1504020451318/SCOUT-river-light.png); 
-}
+// // Sitewide background tile //
+// @mixin tileBackground() {
+//   background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587e38dd041cc6f773951/1504020451318/SCOUT-river-light.png); 
+// }
 
-// Global settings for light template //
-$footerLink : #4A4B4C;
-$listingColor: rgba(74,75,76,1);
-$footerGrey: rgba(142,141,148,1);
-$footerWhite: rgba(218,219,220,100);
+// // Global settings for light template //
+// $footerLink : #4A4B4C;
+// $listingColor: rgba(74,75,76,1);
+// $footerGrey: rgba(142,141,148,1);
+// $footerWhite: rgba(218,219,220,100);
 
-$siteBackground : rgba(255,255,255,1);
-$siteColor: rgba(74,75,76,1);
+// $siteBackground : rgba(255,255,255,1);
+// $siteColor: rgba(74,75,76,1);
 
 
 
@@ -26,21 +26,22 @@ $siteColor: rgba(74,75,76,1);
 // //Dark template
 // ///////////////////////
 
-// // Sitewide pop color // 
-// $popColor: #66E7FF;
+// Sitewide pop color // 
+//$popColor: #66E7FF;
+$popColor : #FF4239;
 
-// // Sitewide background tile //
-// @mixin tileBackground() {
-//   background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587da03596ef2c2264cf3/1504020442116/SCOUT-river-dark.png); 
-// }
+// Sitewide background tile //
+@mixin tileBackground() {
+  background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587da03596ef2c2264cf3/1504020442116/SCOUT-river-dark.png); 
+}
 
-// // Global settings for light template //
-// $footerLink: #FFF;
-// $listingColor: #FFF;
-// $footerGrey: rgba(138,139,140,1);
-// $footerWhite: rgba(218,219,220,100);
+// Global settings for light template //
+$footerLink: #FFF;
+$listingColor: #FFF;
+$footerGrey: rgba(138,139,140,1);
+$footerWhite: rgba(218,219,220,100);
 
-// //Site wide background
-// $siteBackground: rgba(26,27,28,1);  //#DADBDC
-// $siteColor: rgba(218,219,220,1);
+//Site wide background
+$siteBackground: rgba(26,27,28,1);  //#DADBDC
+$siteColor: rgba(218,219,220,1);
 
