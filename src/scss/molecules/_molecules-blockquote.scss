@@ -1,7 +1,3 @@
-/********************************
-* About Quote
-*********************************/
-
 @mixin blockQuote() {
 	color: $siteColor;
 	@include tileBackground();
@@ -18,5 +14,28 @@
 			margin-top: 10px;
 	 	 	color: $popColor;
 		}
+	}
+
+	/*Mobile treatment */
+	@media all and (max-width: $mobileMax) {
+		> .Index-page-content {
+			padding-top: 34px;
+			padding-bottom: 0px;
+		}
+
+		.quote-block {
+		    padding-right: 0px;
+		    padding-left: 0px;
+		    padding-bottom: 0px !important;
+		  }
+
+
+		figure { 
+			padding-left: 1em;
+		    padding-right: 1em;
+		    margin-left: 0px;
+		    margin-right: 0px;
+		    margin-bottom: 0px;
+		  }
 	}
 }

@@ -10,7 +10,7 @@
 
 
 /* Format address (excerpt) on mobile due to compacted text */
-@media all and (max-width: 640px) {
+@media all and (max-width: $mobileMax) {
   div.summary-item .summary-excerpt p {
     letter-spacing: 1px;
   }
@@ -19,7 +19,8 @@
 
 .sqs-gallery-design-carousel {
   .summary-heading {
-     font-family: ProximaNova-Light;  //change to proxima-nova:   font-weigth: 300;   font-size: 18px (mobile settings)
+     font-family: proxima-nova;  //change to proxima-nova:   font-weigth: 300;   font-size: 18px (mobile settings)
+     font-weight: 300;
      font-size: 20px;
      color: $listingColor;
      letter-spacing: 3px;
@@ -43,7 +44,8 @@
   .sqs-gallery-meta-container {
     .summary-title {
     /* Format Title Font on carousel card */
-      font-family: ProximaNova-Light;
+      font-family: proxima-nova;
+      font-weight: 300;
       font-size: 22px;
       color: $listingColor;
       letter-spacing: 2px;
@@ -52,7 +54,8 @@
       text-transform: uppercase;}  
    .summary-excerpt p {
         margin-bottom: 0px;
-        font-family: ProximaNova-Regular;
+        font-family: proxima-nova;
+        font-weight: 300;
         font-size: 12px;
         color: #8A8B8C;
         letter-spacing: 2.18px;
@@ -67,31 +70,22 @@
     padding-right: 10px
 }
 
-
-/* Format address (excerpt) list on card */
-// section.Intro h3 {
-//   font-family: ProximaNova-Light;
-//   font-size: 20px;
-//   color: $listingColor;
-//   letter-spacing: 3px;
-// }
-
 a.BlogList-item-title {
-font-family: ProximaNova-Regular;
+font-family: proxima-nova;
+font-weight: 400;
 font-size: 17px;
 color: $listingColor;
 letter-spacing: 2px;
 }
 
 div.BlogList-item-excerpt {
-font-family: ProximaNova-Regular;
+font-family: proxima-nova;
 font-size: 12px;
 color: #8A8B8C;
 letter-spacing: 2.18px;
 line-height: 4px;
 margin-top: 18px;  
 }
-
 
 
 

@@ -4,7 +4,7 @@
 /* Template variable definition */ 
 /* ------------------------------*/
 // /////////////////////
-
+$mobileMax : 640px; 
 $popColor : #FF4239;
 
 // Sitewide background tile //
@@ -14,6 +14,7 @@ $popColor : #FF4239;
 
 // Global settings for light template //
 $footerLink : #4A4B4C;
+$footerLink-hov : #FFF;
 $listingColor: rgba(74,75,76,1);
 $footerGrey: rgba(142,141,148,1);
 $footerWhite: rgba(218,219,220,100);
@@ -40,6 +41,7 @@ $siteColor: rgba(74,75,76,1);
 
 // // Global settings for light template //
 // $footerLink: #FFF;
+// $footerLink-hov : #FFF;
 // $listingColor: #FFF;
 // $footerGrey: rgba(138,139,140,1);
 // $footerWhite: rgba(218,219,220,100);

@@ -91,7 +91,7 @@ footer .Footer-blocks--top {
 
 
 footer .Footer-blocks--bottom {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 24px;
   padding-bottom: 20px;
 
@@ -99,31 +99,35 @@ footer .Footer-blocks--bottom {
     color: $footerGrey !important;
     text-decoration: none;
     border-bottom-width: 0px !important;
+    &:hover {
+      color: $footerLink-hov !important; 
+    }
   }
   
   div.sqs-col-12 > div.sqs-block div.sqs-block-content p {
-  font-family: ProximaNova-Regular;
-  font-size: 9px;
+  font-family: proxima-nova;
+  font-weight: 400;
+  font-size: 11px;
   color: #DADBDC;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
    line-height: 14px
   }
 }
 
 /* move logo up to give space for bottom footer content */
-@media all and (max-width: 640px) {  .Footer-blocks--bottom { 
+@media all and (max-width: $mobileMax) {  .Footer-blocks--bottom { 
   margin-top: 90px;
   }
 }
 
 /* center text content when on mobile (sqs configured left/right aligned for desktop) */
-@media all and (max-width: 640px) {  .Footer-blocks--bottom .sqs-col-3 p { 
+@media all and (max-width: $mobileMax) {  .Footer-blocks--bottom .sqs-col-3 p { 
   text-align: center;
   }
 }
 
 /*center align social media icons. */
-@media all and (max-width: 640px) {  .Footer-blocks--bottom .sqs-svg-icon--list { 
+@media all and (max-width: $mobileMax) {  .Footer-blocks--bottom .sqs-svg-icon--list { 
   text-align: center;
   }
 }
@@ -146,8 +150,4 @@ footer .Footer-blocks--bottom {
 {
   fill: $footerGrey;
 }
-
-// .social-icons-size-medium.social-icons-style-regular.social-icon-alignment-right .sqs-svg-icon--wrapper {
-//   margin: 0px;
-// }
 

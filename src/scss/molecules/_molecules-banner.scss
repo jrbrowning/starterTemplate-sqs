@@ -3,16 +3,31 @@
 
   .Index-page-content {
 /* add padding to match sketch */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   @include popLine();
 
   .sqs-block-html {
     background-color: $siteBackground;
-    margin: 10px -30px;
-    padding: 50px 50px;
+    margin: 0px -30px;
+    padding: 30px 50px;
   }
+
+
+  /*Mobile treatment */
+  @media all and (max-width: $mobileMax) {
+    > .Index-page-content {
+      padding-top: 74px;
+      padding-bottom: 0px;
+    }
+
+    .sqs-block .html-block {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+      }
+  }
+
 }
 
 
