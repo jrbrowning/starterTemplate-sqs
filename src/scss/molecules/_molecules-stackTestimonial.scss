@@ -11,17 +11,17 @@
 .sqs-block-image .design-layout-stack .image-title p {
 font-family: Georgia-Italic !important;
 font-size: 14px  !important;
-color: #8A8B8C  !important;
+color: $testimonialsQuote  !important;
 letter-spacing: 0  !important;
 line-height: 24px  !important;
 }
 
 /* adding line seperation between quote sections */
 .sqs-block-image .design-layout-stack .image-subtitle p {
-  font-family: proxima-nova !important;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial !important;
   font-weight: 500;
   font-size: 13px !important;
-  color: rgba(74,75,76,1) !important;
+  color: $popColor !important;
   letter-spacing: 5px !important;
   text-transform: uppercase !important;
   padding-top: 25px;

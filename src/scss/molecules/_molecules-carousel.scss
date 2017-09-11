@@ -1,25 +1,14 @@
 /*****************************************************************************************************************/
 
 /*********************************
-*  MODULE carousel
-*  
-*  Carousel formatting Main
+*  Molecule carousel
 *********************************/
 
 /*****************************************************************************************************************/
 
-
-/* Format address (excerpt) on mobile due to compacted text */
-@media all and (max-width: $mobileMax) {
-  div.summary-item .summary-excerpt p {
-    letter-spacing: 1px;
-  }
-}  
-
-
 .sqs-gallery-design-carousel {
   .summary-heading {
-     font-family: proxima-nova;  //change to proxima-nova:   font-weigth: 300;   font-size: 18px (mobile settings)
+     font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;   //change to proxima-nova:   font-weigth: 300;   font-size: 18px (mobile settings)
      font-weight: 300;
      font-size: 20px;
      color: $listingColor;
@@ -44,26 +33,36 @@
   .sqs-gallery-meta-container {
     .summary-title {
     /* Format Title Font on carousel card */
-      font-family: proxima-nova;
+      font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
       font-weight: 300;
       font-size: 22px;
       color: $listingColor;
       letter-spacing: 2px;
       line-height: 24px;
       margin-bottom: 20px;
-      text-transform: uppercase;}  
+      text-transform: uppercase;
+    }  
    .summary-excerpt p {
         margin-bottom: 0px;
         font-family: proxima-nova;
         font-weight: 300;
         font-size: 12px;
-        color: #8A8B8C;
+        color: #8A8B8C;  
         letter-spacing: 2.18px;
         line-height: 15px;
         text-transform: uppercase;
       }
+  // MOBILE treatment //
+  /* Format address (excerpt) on mobile due to compacted text */
+  @media all and (max-width: $mobileMax) {
+    .summary-excerpt p {
+        letter-spacing: 1px;
+     }
+   }  
   }
 }
+
+
 
 /* add padding to make carousel images have white spacing */
 .sqs-gallery-design-strip-slide {
@@ -71,7 +70,7 @@
 }
 
 a.BlogList-item-title {
-font-family: proxima-nova;
+font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
 font-weight: 400;
 font-size: 17px;
 color: $listingColor;
@@ -79,13 +78,11 @@ letter-spacing: 2px;
 }
 
 div.BlogList-item-excerpt {
-font-family: proxima-nova;
+font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
 font-size: 12px;
 color: #8A8B8C;
 letter-spacing: 2.18px;
 line-height: 4px;
 margin-top: 18px;  
 }
-
-
 

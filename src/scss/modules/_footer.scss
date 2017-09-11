@@ -73,18 +73,22 @@ footer .Footer-blocks--top {
      max-width: none;
      width: inherit;
   a {
-    color: $footerLink !important;
+    color: $footerTopLink !important;
     font-weight: 700;
     text-decoration: none;
     border-bottom-width: 0px !important;
+    &:hover {
+      color: $footerTopLink-hov !important; 
+    }
   }
   p {
     line-height: 1em;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: .15em;
     text-transform: uppercase;   
     text-align: center;
+    color: $footerGrey;
   }
 }
 
@@ -105,7 +109,7 @@ footer .Footer-blocks--bottom {
   }
   
   div.sqs-col-12 > div.sqs-block div.sqs-block-content p {
-  font-family: proxima-nova;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
   font-weight: 400;
   font-size: 11px;
   color: #DADBDC;

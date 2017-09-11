@@ -2,10 +2,6 @@
 
 /*********************************
 * MODULE contactPage
-* 
-* contact Page Formatting
-*********************************/
-
 /*****************************************************************************************************************/
 
 /********************************
@@ -23,9 +19,10 @@
 /* Remove box lables */
 #contactform .form-wrapper .field-list {
   .title {
-    font-family: proxima-nova;
+      font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
       font-size: 13px;
-      color: #8A8B8C;
+      font-weight: 500;
+      color: $contactFormTitle;
       letter-spacing: 0;
   }
   .field  {
@@ -41,23 +38,27 @@
  .field-element {
 /* Round corners of input fields */
     border-radius: 5px;
+    background: $contactFormBackground;
+    color: $contactFormColor;
+    font-size: $contactFormSize;
+    border: $contactFormBorder;
   }
 }
 
 /* contact form button styling */
 #contactform input.button {
-  border:2px solid #dadada;
+  border:2px solid $contactFormBorder;
   padding: 10px;
   min-width: 100px;
   transition: all .25s ease;
-  font-family: proxima-nova;
-  font-weight: 200;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
+  font-weight: 600;
   font-size: 12px;
-  color: #8A8B8C;
+  color: $contactFormColor;
   letter-spacing: 2.4px;
     &:hover{
-      background: #353535;
-      border:2px solid #353535;
-      color: white;
+      background: $contactButton-hov;
+      border:2px solid $contactButton-hov;
+      color: $contactButtonColor-hov;
     }
 }

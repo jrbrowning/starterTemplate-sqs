@@ -1,10 +1,37 @@
 
+
+////////////////////
+/* MOBILE GLOBAL VALUES *////////
+///////////////////
+$mobileMax : 640px; 
+
+@media all and (max-width: $mobileMax) {
+	body {
+		font-size: 18px;
+	}	
+
+	h1 {
+		font-size: 50px;
+		font-weight: 300;
+	}
+
+	h2 { 
+		font-size: 20px;
+	 	font-weight: 300;
+	}
+
+	h3 {
+		font-size: 14px;
+		font-weight: 400;
+	}
+}
+
+
 ///////////////////
 /* Light Template */
 /* Template variable definition */ 
 /* ------------------------------*/
 // /////////////////////
-$mobileMax : 640px; 
 $popColor : #FF4239;
 
 // Sitewide background tile //
@@ -13,25 +40,41 @@ $popColor : #FF4239;
 }
 
 // Global settings for light template //
-$footerLink : #4A4B4C;
-$footerLink-hov : #FFF;
 $listingColor: rgba(74,75,76,1);
+
+$footerLink : #DADBDC;
+$footerLink-hov : #FFF;
+$footerTopLink: #8A8B8C;
+$footerTopLink-hov: #4A4B4C;
+
 $footerGrey: rgba(142,141,148,1);
 $footerWhite: rgba(218,219,220,100);
 
 $siteBackground : rgba(255,255,255,1);
 $siteColor: rgba(74,75,76,1);
 
+$stackTitleRole : #8A8B8C;
+$listingsDetail: #4A4B4C;
+
+$testimonialsQuote : #8A8B8C;
+$contactFormTitle: #8A8B8C;
+$contactFormBackground: rgba(250,250,250,1);
+$contactFormColor : #8A8B8C;
+$contactButton-hov: #4A4B4C;
+$contactButtonColor-hov: #FFF;
+$contactFormSize : 15px;
+$contactFormBorder: 1px solid rbga(204,204,204,1);
 
 
-// ///////////////////////
-///* //Dark template */
-///* Template variable definition */ 
-///* ------------------------------*/
-// ///////////////////////
 
-// Sitewide pop color // 
-//$popColor: #66E7FF;
+///////////////////////
+/* //Dark template */
+/* Template variable definition */ 
+/* ------------------------------*/
+///////////////////////
+
+// //Sitewide pop color // 
+// $mobileMax : 640px; 
 // $popColor : #FF4239;
 
 // // Sitewide background tile //
@@ -40,13 +83,28 @@ $siteColor: rgba(74,75,76,1);
 // }
 
 // // Global settings for light template //
+// $listingColor: #FFF;
+// 
 // $footerLink: #FFF;
 // $footerLink-hov : #FFF;
-// $listingColor: #FFF;
+// $footerTopLink: #4A4B4C;
+// $footerTopLink-hov: #FFF;
+
+
 // $footerGrey: rgba(138,139,140,1);
 // $footerWhite: rgba(218,219,220,100);
 
 // //Site wide background
 // $siteBackground: rgba(26,27,28,1);  //#DADBDC
 // $siteColor: rgba(218,219,220,1);
+
+// $stackTitleRole : #DADBDC;
+// $listingsDetail: #C0C1C2;
+
+// $testimonialsQuote : #DADBDC;
+// $contactFormTitle: #DADBDC;
+// $contactFormBackground: #4A4B4C;
+// $contactFormColor : #4A4B4C;
+// $contactFormSize 15px;
+// $contactFormBorder: 1px solid #646566;
 

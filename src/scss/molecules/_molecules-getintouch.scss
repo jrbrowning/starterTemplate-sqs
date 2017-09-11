@@ -28,4 +28,19 @@
       @include button($popColor, $popColor, $popColor, $siteBackground, $popColor);
         margin-top: 0px;
     }
+
+ /*Mobile treatment */
+  @media all and (max-width: $mobileMax) {
+    > .Index-page-content {
+      padding-top: 74px;
+      padding-bottom: 0px;
+    }
+
+    .sqs-block .html-block {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+      }
+  }
+
+
 }
