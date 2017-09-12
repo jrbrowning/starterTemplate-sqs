@@ -4,6 +4,7 @@
 /* MOBILE GLOBAL VALUES *////////
 ///////////////////
 $mobileMax : 640px; 
+$popColor : #FF4239;
 
 @media all and (max-width: $mobileMax) {
 	body {
@@ -32,7 +33,7 @@ $mobileMax : 640px;
 /* Template variable definition */ 
 /* ------------------------------*/
 // /////////////////////
-$popColor : #FF4239;
+
 
 // Sitewide background tile //
 @mixin tileBackground() {
@@ -73,10 +74,6 @@ $contactFormBorder: 1px solid rbga(204,204,204,1);
 /* ------------------------------*/
 ///////////////////////
 
-// //Sitewide pop color // 
-// $mobileMax : 640px; 
-// $popColor : #FF4239;
-
 // // Sitewide background tile //
 // @mixin tileBackground() {
 //   background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587da03596ef2c2264cf3/1504020442116/SCOUT-river-dark.png); 
@@ -84,12 +81,11 @@ $contactFormBorder: 1px solid rbga(204,204,204,1);
 
 // // Global settings for light template //
 // $listingColor: #FFF;
-// 
+
 // $footerLink: #FFF;
 // $footerLink-hov : #FFF;
 // $footerTopLink: #4A4B4C;
 // $footerTopLink-hov: #FFF;
-
 
 // $footerGrey: rgba(138,139,140,1);
 // $footerWhite: rgba(218,219,220,100);
@@ -99,12 +95,15 @@ $contactFormBorder: 1px solid rbga(204,204,204,1);
 // $siteColor: rgba(218,219,220,1);
 
 // $stackTitleRole : #DADBDC;
-// $listingsDetail: #C0C1C2;
+// $listingsDetail: rgba(138,139,140,1);
 
+// ////    @include button(#dadada,#8A8B8C,#353535,#FFF);
 // $testimonialsQuote : #DADBDC;
 // $contactFormTitle: #DADBDC;
 // $contactFormBackground: #4A4B4C;
-// $contactFormColor : #4A4B4C;
-// $contactFormSize 15px;
+// $contactFormColor : #8A8B8C;
+// $contactButton-hov: #4A4B4C;
+// $contactButtonColor-hov: #FFF;
+// $contactFormSize : 15px;
 // $contactFormBorder: 1px solid #646566;
 
