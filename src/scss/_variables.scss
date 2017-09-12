@@ -35,36 +35,38 @@ $popColor : #FF4239;
 // /////////////////////
 
 
-// Sitewide background tile //
-@mixin tileBackground() {
-  background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587e38dd041cc6f773951/1504020451318/SCOUT-river-light.png); 
-}
+// // Sitewide background tile //
+// @mixin tileBackground() {
+//   background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587e38dd041cc6f773951/1504020451318/SCOUT-river-light.png); 
+// }
 
-// Global settings for light template //
-$listingColor: rgba(74,75,76,1);
+// // Global settings for light template //
+// $listingColor: rgba(74,75,76,1);
 
-$footerLink : #DADBDC;
-$footerLink-hov : #FFF;
-$footerTopLink: #8A8B8C;
-$footerTopLink-hov: #4A4B4C;
+// $footerLink : #DADBDC;
+// $footerLink-hov : #FFF;
+// $footerTopLink: #8A8B8C;
+// $footerTopLink-hov: #4A4B4C;
 
-$footerGrey: rgba(142,141,148,1);
-$footerWhite: rgba(218,219,220,100);
+// $footerGrey: rgba(142,141,148,1);
+// $footerWhite: rgba(218,219,220,100);
 
-$siteBackground : rgba(255,255,255,1);
-$siteColor: rgba(74,75,76,1);
+// $siteBackground : rgba(255,255,255,1);
+// $siteColor: rgba(74,75,76,1);
 
-$stackTitleRole : #8A8B8C;
-$listingsDetail: #4A4B4C;
+// $stackTitleRole : #8A8B8C;
+// $listingsDetail: #4A4B4C;
 
-$testimonialsQuote : #8A8B8C;
-$contactFormTitle: #8A8B8C;
-$contactFormBackground: rgba(250,250,250,1);
-$contactFormColor : #8A8B8C;
-$contactButton-hov: #4A4B4C;
-$contactButtonColor-hov: #FFF;
-$contactFormSize : 15px;
-$contactFormBorder: 1px solid rbga(204,204,204,1);
+// $listingsExcerpt: #8A8B8C;
+
+// $testimonialsQuote : #8A8B8C;
+// $contactFormTitle: #8A8B8C;
+// $contactFormBackground: rgba(250,250,250,1);
+// $contactFormColor : #8A8B8C;
+// $contactButton-hov: #4A4B4C;
+// $contactButtonColor-hov: #FFF;
+// $contactFormSize : 15px;
+// $contactFormBorder: 1px solid rbga(204,204,204,1);
 
 
 
@@ -74,36 +76,37 @@ $contactFormBorder: 1px solid rbga(204,204,204,1);
 /* ------------------------------*/
 ///////////////////////
 
-// // Sitewide background tile //
-// @mixin tileBackground() {
-//   background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587da03596ef2c2264cf3/1504020442116/SCOUT-river-dark.png); 
-// }
+// Sitewide background tile //
+@mixin tileBackground() {
+  background: url(https://static1.squarespace.com/static/59863fc5bf629a081fe30681/t/59a587da03596ef2c2264cf3/1504020442116/SCOUT-river-dark.png); 
+}
 
-// // Global settings for light template //
-// $listingColor: #FFF;
+// Global settings for light template //
+$listingColor: #FFF;
 
-// $footerLink: #FFF;
-// $footerLink-hov : #FFF;
-// $footerTopLink: #4A4B4C;
-// $footerTopLink-hov: #FFF;
+$footerLink: #FFF;
+$footerLink-hov : #FFF;
+$footerTopLink: #4A4B4C;
+$footerTopLink-hov: #FFF;
 
-// $footerGrey: rgba(138,139,140,1);
-// $footerWhite: rgba(218,219,220,100);
+$footerGrey: rgba(138,139,140,1);
+$footerWhite: rgba(218,219,220,100);
 
-// //Site wide background
-// $siteBackground: rgba(26,27,28,1);  //#DADBDC
-// $siteColor: rgba(218,219,220,1);
+//Site wide background
+$siteBackground: rgba(26,27,28,1);  //#DADBDC
+$siteColor: rgba(218,219,220,1);
 
-// $stackTitleRole : #DADBDC;
-// $listingsDetail: rgba(138,139,140,1);
+$stackTitleRole : #DADBDC;
+$listingsDetail: rgba(138,139,140,1);
 
-// ////    @include button(#dadada,#8A8B8C,#353535,#FFF);
-// $testimonialsQuote : #DADBDC;
-// $contactFormTitle: #DADBDC;
-// $contactFormBackground: #4A4B4C;
-// $contactFormColor : #8A8B8C;
-// $contactButton-hov: #4A4B4C;
-// $contactButtonColor-hov: #FFF;
-// $contactFormSize : 15px;
-// $contactFormBorder: 1px solid #646566;
+$listingsExcerpt: #C0C1C2;
+
+$testimonialsQuote : #DADBDC;
+$contactFormTitle: #DADBDC;
+$contactFormBackground: #4A4B4C;
+$contactFormColor : #8A8B8C;
+$contactButton-hov: #4A4B4C;
+$contactButtonColor-hov: #FFF;
+$contactFormSize : 15px;
+$contactFormBorder: 1px solid #646566;
 

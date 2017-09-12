@@ -47,7 +47,7 @@
         font-family: proxima-nova;
         font-weight: 300;
         font-size: 12px;
-        color: #8A8B8C;  
+        color: $listingsExcerpt;  
         letter-spacing: 2.18px;
         line-height: 15px;
         text-transform: uppercase;
@@ -80,7 +80,7 @@ letter-spacing: 2px;
 div.BlogList-item-excerpt {
 font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
 font-size: 12px;
-color: #8A8B8C;
+color: $listingsExcerpt;
 letter-spacing: 2.18px;
 line-height: 4px;
 margin-top: 18px;  
