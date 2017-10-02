@@ -4,7 +4,8 @@
   "description": "A helper NPM package for generating custom CSS/JS files based on input SCSS variables.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "./node_modules/.bin/webpack -d --progress --watch --colors",
+    "start": "npm run watch"
   },
   "repository": {
     "type": "git",
@@ -15,10 +16,6 @@
     "css",
     "js"
   ],
- "scripts": {
-    "watch": "./node_modules/.bin/webpack -d --progress --watch --colors",
-    "start": "npm run watch"
-  },
   "author": "jeff browning",
   "license": "MIT",
   "bugs": {
